@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media (max-width: 720px){
+
+    .bunnerG{
+        margin: -70px 0 10px 0;
+    }
+
+    .boxinfo{
+        position: absolute;
+        right: 0px;
+    }
+
+    #bunnerG-principal{width: 500px; }
+    
+}

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site modelo - Wagner Eduardo de Souza Antunes</title>
+
+    <!--Links-->
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/Celularstyle.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <div class="grade-layout">
+            <section id="header">
+                
+                <!--Button menu-->
+                <div class="menu pointer">
+                    <button><svg xmlns="http://www.w3.org/2000/svg" width="29" height="20" viewBox="0 0 29 20">
+                        <g id="Icon_feather-menu" data-name="Icon feather-menu" transform="translate(-3.5 -8)">
+                          <path id="Caminho_1" data-name="Caminho 1" d="M4.5,18h27" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                          <path id="Caminho_2" data-name="Caminho 2" d="M4.5,9h27" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                          <path id="Caminho_3" data-name="Caminho 3" d="M4.5,27h27" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        </g>
+                      </svg>
+                      </button>
+                      <p>menu</p>
+                </div>
+                
+                <!--Barra de pesquisa-->
+                <div>
+                    <input class="inputPesquisa pointer" type="text" placeholder=' O que está buscando?'>
+                </div>
+
+                <!--Logo Footer-->
+                <div class="logo">
+                    <a href="index.html">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                        width="100px" height="100px" viewBox="0 0 112.000000 110.000000" preserveAspectRatio="xMidYMid meet">
+                            <g transform="translate(0.000000,110.000000) scale(0.100000,-0.100000)"
+                            fill="#494949" stroke="none">
+                            <path d="M479 906 c-108 -31 -193 -107 -252 -226 -29 -59 -32 -73 -32 -160 0
+                            -87 3 -101 32 -161 153 -311 567 -312 724 -2 32 62 34 74 34 162 0 87 -3 102
+                            -31 162 -39 81 -112 155 -198 198 -54 28 -78 34 -148 37 -50 2 -101 -2 -129
+                            -10z m206 -165 c80 -36 145 -137 145 -225 0 -81 -69 -180 -149 -213 -45 -19
+                            -137 -19 -182 0 -81 34 -149 132 -149 216 0 92 70 194 155 225 56 20 132 19
+                            180 -3z"/></g>
+                        </svg>
+                    </a>
+                </div>
+                
+                <!--Clima-->
+                <div class="clima" pointer>
+                    <a href="#">
+
+                        <div class="icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="41.5" height="37" viewBox="0 0 41.5 37">
+                                <path id="Icon_awesome-cloud-sun-rain" data-name="Icon awesome-cloud-sun-rain" d="M35.895,15.855a5.623,5.623,0,0,0-5.52-4.605,5.553,5.553,0,0,0-2.412.563A6.737,6.737,0,0,0,15.75,15.75c0,.035.014.077.014.113A5.624,5.624,0,0,0,16.875,27h18a5.618,5.618,0,0,0,1.02-11.145ZM8.726,18.274A6.733,6.733,0,0,1,17.634,8.205,8.938,8.938,0,0,1,22.5,6.75c.049,0,.091.014.141.014l.626-1.877a.913.913,0,0,0-1.16-1.153L16.812,5.5,14.316.506a.916.916,0,0,0-1.638,0L10.181,5.5,4.887,3.734a.913.913,0,0,0-1.153,1.16L5.5,10.188l-4.992,2.5a.916.916,0,0,0,0,1.638l4.992,2.5L3.734,22.113a.919.919,0,0,0,1.16,1.16l4.163-1.385c-.014-.169-.049-.33-.049-.506a7.771,7.771,0,0,1,.436-2.524,6.484,6.484,0,0,1-.717-.584ZM13.634,14.2a8.966,8.966,0,0,1,2.243-4.5A4.439,4.439,0,0,0,13.5,9,4.5,4.5,0,0,0,9,13.5a4.458,4.458,0,0,0,1.484,3.312A7.885,7.885,0,0,1,13.634,14.2ZM36.879,29.4a1.122,1.122,0,0,0-1.533.422l-2.573,4.5a1.121,1.121,0,0,0,.422,1.533,1.122,1.122,0,0,0,1.533-.422l2.573-4.5a1.127,1.127,0,0,0-.422-1.533Zm-6.75,0a1.122,1.122,0,0,0-1.533.422l-2.573,4.5a1.121,1.121,0,0,0,.422,1.533,1.122,1.122,0,0,0,1.533-.422l2.573-4.5a1.127,1.127,0,0,0-.422-1.533Zm-6.75,0a1.122,1.122,0,0,0-1.533.422l-2.573,4.5a1.121,1.121,0,0,0,.422,1.533,1.122,1.122,0,0,0,1.533-.422l2.573-4.5a1.127,1.127,0,0,0-.422-1.533Zm-6.75,0a1.122,1.122,0,0,0-1.533.422l-2.573,4.5a1.121,1.121,0,0,0,.422,1.533,1.122,1.122,0,0,0,1.533-.422l2.573-4.5a1.127,1.127,0,0,0-.422-1.533Z" transform="translate(0.5 0.5)" fill="none" stroke="#494949" stroke-width="1"/>
+                            </svg>
+                        </div>
+                        
+                        <div>
+                            <p>Rio de Janeiro</p>
+                            <span id="climaMin">min 20º</span>
+                            <span id="climaMax">max 28º</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!--Perfil-->
+                <div>
+                    <div id="perfil">
+                        <div class="bell pointer">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 35.5 40"  style="margin: 0 30px;">
+                                <g id="Icon_awesome-bell" data-name="Icon awesome-bell" transform="translate(2 2)" fill="none" stroke-linecap="square" stroke-linejoin="round" >
+                                  <path d="M15.75,36A4.647,4.647,0,0,0,19.2,34.386,4.287,4.287,0,0,0,20.248,31.5h-9A4.5,4.5,0,0,0,15.75,36ZM30.895,25.474c-1.358-1.46-3.9-3.656-3.9-10.849a11.1,11.1,0,0,0-9-10.91V2.25a2.249,2.249,0,1,0-4.5,0V3.715a11.1,11.1,0,0,0-9,10.91c0,7.193-2.542,9.389-3.9,10.849A2.2,2.2,0,0,0,0,27a2.252,2.252,0,0,0,2.257,2.25H29.243A2.252,2.252,0,0,0,31.5,27a2.2,2.2,0,0,0-.605-1.526Z" stroke="none"/>
+                                  <path d="M 15.74999904632568 36 C 17.02399826049805 36 18.17457962036133 35.4698600769043 19.20084953308105 34.38626861572266 C 19.77012825012207 33.80918884277344 20.24788856506348 32.7104606628418 20.24788856506348 31.5 L 11.25210857391357 31.5 C 11.25210857391357 33.98554992675781 13.26655864715576 36 15.74999904632568 36 M 29.24296951293945 29.25 C 30.58733940124512 29.25 31.49296951293945 28.15312004089355 31.5 27 C 31.50350952148438 26.46913909912109 31.31647872924805 25.92633056640625 30.89460945129395 25.4735107421875 C 29.53616905212402 24.01383018493652 26.9943790435791 21.81797027587891 26.9943790435791 14.625 C 26.9943790435791 9.161720275878906 23.16374969482422 4.788280010223389 17.99859809875488 3.715310096740723 L 17.99859809875488 2.25 C 17.99859809875488 1.007580041885376 16.99171829223633 0 15.74999904632568 0 C 14.50827884674072 0 13.50140857696533 1.007580041885376 13.50140857696533 2.25 L 13.50140857696533 3.715310096740723 C 8.336249351501465 4.788280010223389 4.505629062652588 9.161720275878906 4.505629062652588 14.625 C 4.505629062652588 21.81797027587891 1.963829040527344 24.01383018493652 0.6053890585899353 25.4735107421875 C 0.1835190504789352 25.92703056335449 -0.003510953625664115 26.46913909912109 -9.5367431640625e-07 27 C 0.00773904612287879 28.15312004089355 0.9126590490341187 29.25 2.257029056549072 29.25 L 29.24296951293945 29.25 M 15.74999904632568 38 C 12.16704940795898 38 9.252108573913574 35.08411026000977 9.252108573913574 31.5 C 9.252108573913574 31.41532325744629 9.257368087768555 31.3319091796875 9.267582893371582 31.25 L 2.257029056549072 31.25 C 1.072198987007141 31.25 -0.02289095334708691 30.78153038024902 -0.826530933380127 29.93090057373047 C -1.575920939445496 29.13768005371094 -1.992650985717773 28.10157012939453 -1.999951004981995 27.01342010498047 C -2.00705099105835 25.94047927856445 -1.601850986480713 24.9099006652832 -0.8590009808540344 24.11132049560547 C -0.7695609331130981 24.01520919799805 -0.6756409406661987 23.91641998291016 -0.5778209567070007 23.81357002258301 C 0.7234590649604797 22.44552993774414 2.505629062652588 20.57192993164062 2.505629062652588 14.625 C 2.505629062652588 8.893868446350098 6.131129264831543 3.986589908599854 11.50186634063721 2.187201738357544 C 11.53564262390137 -0.1273452490568161 13.42833805084229 -2 15.74999904632568 -2 C 18.07167053222656 -2 19.96436500549316 -0.1273459643125534 19.99814224243164 2.187201023101807 C 25.3688850402832 3.986589193344116 28.9943790435791 8.893868446350098 28.9943790435791 14.625 C 28.9943790435791 20.57193946838379 30.77653884887695 22.44552993774414 32.07781982421875 23.81357955932617 C 32.1756477355957 23.91641998291016 32.26955795288086 24.01522064208984 32.35868072509766 24.1109790802002 C 33.10147857666016 24.90826988220215 33.50705718994141 25.93926048278809 33.49995803833008 27.01321983337402 C 33.49332809448242 28.10078048706055 33.07662963867188 29.13738059997559 32.32663726806641 29.93106079101562 C 31.52292823791504 30.78158950805664 30.42778968811035 31.25 29.24296951293945 31.25 L 22.23241424560547 31.25 C 22.24263000488281 31.3319091796875 22.24788856506348 31.41532325744629 22.24788856506348 31.5 C 22.24788856506348 33.123046875 21.63250923156738 34.75837707519531 20.64058876037598 35.77458572387695 C 19.23654174804688 37.25127410888672 17.59119987487793 38 15.74999904632568 38 Z" stroke="none" fill="#494949"/>
+                                </g>
+                                <circle id="Elipse_1" data-name="Elipse 1" cx="5.5" cy="5.5" r="5.5" transform="translate(22.95 6)" fill="#b4023f"/>
+                              </svg>                              
+                        </div>
+
+                        <div class="arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 23.616 13.503">
+                                <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M18,20.679l8.93-8.937a1.681,1.681,0,0,1,2.384,0,1.7,1.7,0,0,1,0,2.391L19.2,24.258a1.685,1.685,0,0,1-2.327.049L6.68,14.14a1.688,1.688,0,0,1,2.384-2.391Z" transform="translate(-6.188 -11.246)" fill="#494949"/>
+                            </svg>
+                        </div>
+
+                        <div class="fotoPerfil">
+                            <img src="https://imagem.natelinha.uol.com.br/tudo-sobre/silvio_santos_1f411502d8ced631dcd3f3732eea164ed0f658b8_6351a7795283d6629d4f960da6530bc87567d5b8.jpeg" alt="Foto de Perfil">
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="menu">
+                <div class="grade-layout">
+                    <ul>
+                        <li><a href="#">NOTÍCIAS</a></li>
+                        <li><a href="#">ESPORTES</a></li>
+                        <li><a href="#">ENTRETERIMENTO</a></li>
+                        <li><a href="#">CARROS</a></li>
+                        <li><a href="#">TV E FAMOSOS</a></li>
+                        <li><a href="#">PLANETA</a></li>
+                        <li><a href="#">ECONOMIA</a></li>
+                        <li><a href="#">SAÚDE</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </header>
+    
+    <main>
+        
+        <div class="grade-layout"><hr></div>
+
+
+        <!--Noticia Principal-->
+        <section >
+            <div class="grade-layout ">
+                <div class="noticia">
+                    <div id="bunnerG-principal">
+                        <div class="bunnerG">
+                            <h2 class="fontSaude">COVID-19</h2>
+                            <div class="imgBunner">
+                                <img class="imgB imgB-G" src="https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/c1yjmox57vxbkt8u7lrw" alt="descrição image">
+                            </div>
+                            <div class="boxinfo">
+                                <p class="fontOutros">DESTAQUE</p>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Repellendus</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Repellendus</p>
+                                <ul>
+                                    <li><span></span></li>
+                                    <li><span></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="bunnerP">
+                    
+                            <div class="imgBunner">
+                                <img class="imgB imgB-P" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                    
+                            <h2 class="fontEsportes">ESPORTES</h2>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                        </div>
+                    
+                        <div class="bunnerP">
+                    
+                            <div class="imgBunner">
+                                <img class="imgB imgB-P" src="https://static.poder360.com.br/2022/07/Bolsonao-Atletas-Educacao-21-scaled.jpg" alt="descrição image">
+                            </div>
+                    
+                            <h2 class="fontEconomia">ECONOMIA</h2>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!--Noticia Central-->
+        <section>
+           <div class="grade-layout">
+                <div class="noticia">
+                    
+                    <div class="sectionList">
+                        <div class="bunnerL">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-L" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                            <div>
+                                <h2 class="fontEntreterimento">ENTRETERIMENTO</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                <p class="infobox">5 min de leitura • há 15 horas</p>
+                            </div>
+                        </div>
+                        <div class="bunnerL">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-L" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                            <div>
+                                <h2 class="fontEntreterimento">ENTRETERIMENTO</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                <p class="infobox">5 min de leitura • há 15 horas</p>
+                            </div>
+                        </div>
+                        <div class="bunnerL">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-L" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                            <div>
+                                <h2 class="fontEntreterimento">ENTRETERIMENTO</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                <p class="infobox">5 min de leitura • há 15 horas</p>
+                            </div>
+                        </div>
+                        <div class="bunnerL">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-L" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                            <div>
+                                <h2 class="fontEntreterimento">ENTRETERIMENTO</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                <p class="infobox">5 min de leitura • há 15 horas</p>
+                            </div>
+                        </div>
+                        <div class="bunnerL">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-L" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                            <div>
+                                <h2 class="fontEntreterimento">ENTRETERIMENTO</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                <p class="infobox">5 min de leitura • há 15 horas</p>
+                            </div>
+                        </div>
+
+                        <div class="bunnerWL-G">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-P" src="https://blog.rodeowest.com.br/wp-content/uploads/2020/09/cavalo-frisio.jpg" alt="descrição image">
+                            </div>
+                            <article>
+                                <h2 class="fontEsportes">ESPORTES</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </article>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div>
+                            <div class="container">
+                                <div id="bunnerBV1" class="bunnerBV">
+                                    <h2 class="fontOutros">MÚSICA</h2>
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                </div>
+                                <div id="bunnerBV2" class="bunnerBV">
+                                    <h2 class="fontOutros">MÚSICA</h2>
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                </div>
+                            </div>
+
+                            <div id="bunnerBL1" class="bunnerBL">
+                                <h2 class="fontOutros">MÚSICA</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </div>
+
+                            <div></div>
+                           
+                                <div class="bunnerLP">
+                                    <div>
+                                        <h2 class="fontEsportes">ESPORTES</h2>
+                                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                    </div>
+
+                                    <div class="imgBunner">
+                                        <img class="imgB imgB-LP" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                                    </div>
+                                </div>
+                                
+                                <div class="bunnerLP">
+                                    <div>
+                                        <h2 class="fontEsportes">ESPORTES</h2>
+                                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                    </div>
+
+                                    <div class="imgBunner">
+                                        <img class="imgB imgB-LP" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                                    </div>
+                                </div>
+
+                                <div class="bunnerLP">
+                                    <div>
+                                        <h2 class="fontTVFamosos">TV E FAMOSOS</h2>
+                                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                    </div>
+
+                                    <div class="imgBunner">
+                                        <img class="imgB imgB-LP" src="data:image/jpeg;base64,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" alt="descrição image">
+                                    </div>
+                                </div>
+
+                                <div class="bunnerLP">
+                                    <div>
+                                        <h2 class="fontTVFamosos">TV E FAMOSOS</h2>
+                                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                    </div>
+
+                                    <div class="imgBunner">
+                                        <img class="imgB imgB-LP" src="data:image/jpeg;base64,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" alt="descrição image">
+                                    </div>
+                                </div>
+
+                                <div class="bunnerLP">
+                                    <div>
+                                        <h2 class="fontTVFamosos">TV E FAMOSOS</h2>
+                                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                    </div>
+
+                                    <div class="imgBunner">
+                                        <img class="imgB imgB-LP" src="data:image/jpeg;base64,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" alt="descrição image">
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                
+                </div>
+           </div>     
+        </section>
+
+        <div class="grade-layout"><p>Videos Famosos</p></div>
+
+        <section>
+            <div class="grade-layout">
+                <div class="noticia">
+                    <div id="videos">
+                        <div class="bunnerWP">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-P" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                            <article>
+                                <h2 class="fontEsportes">ESPORTES</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </article>
+                        </div>
+                        <div class="bunnerWP">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-P" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                            <article>
+                                <h2 class="fontEsportes">ESPORTES</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </article>
+                        </div>
+                        <div class="bunnerWP">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-P" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                            <article>
+                                <h2 class="fontEsportes">ESPORTES</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </article>
+                        </div>
+                        <div class="bunnerWP">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-P" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                            <article>
+                                <h2 class="fontEsportes">ESPORTES</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="grade-layout">
+                <div class="noticia">
+                    <div class="sectionList">
+                        
+                        <div class="bunnerWL-G">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-P" src="https://blog.rodeowest.com.br/wp-content/uploads/2020/09/cavalo-frisio.jpg" alt="descrição image">
+                            </div>
+                            <article>
+                                <h2 class="fontEsportes">ESPORTES</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </article>
+                        </div>
+
+                        <div class="bunnerL">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-L" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                            <div>
+                                <h2 class="fontEntreterimento">ENTRETERIMENTO</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                <p class="infobox">5 min de leitura • há 15 horas</p>
+                            </div>
+                        </div>
+
+
+                        <div class="bunnerL">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-L" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+
+                            <div>
+                                <h2 class="fontEntreterimento">ENTRETERIMENTO</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                <p class="infobox">5 min de leitura • há 15 horas</p>
+                            </div>
+                        </div>
+                    
+                        <div class="bunnerL">
+                            <div class="imgBunner">
+                                <img class="imgB imgB-L" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                            <div>
+                                <h2 class="fontEntreterimento">ENTRETERIMENTO</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                                <p class="infobox">5 min de leitura • há 15 horas</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        
+                        <div id="" class="bunnerWBL">
+                            <h2 class="fontOutros">MÚSICA</h2>
+                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                        </div>
+
+                        <div class="container">
+                            <div id="bunnerBV5" class="bunnerBWV">
+                                <h2 class="fontOutros">MÚSICA</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </div>
+                            <div id="bunnerBV6" class="bunnerBWV">
+                                <h2 class="fontOutros">MÚSICA</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </div>
+                        </div>
+
+                        <div class="bunnerLP">
+                            <div>
+                                <h2 class="fontEsportes">ESPORTES</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </div>
+
+                            <div class="imgBunner">
+                                <img class="imgB imgB-LP" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                        </div>
+
+                        <div class="bunnerLP">
+                            <div>
+                                <h2 class="fontEsportes">ESPORTES</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </div>
+
+                            <div class="imgBunner">
+                                <img class="imgB imgB-LP" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                        </div>
+
+                        <div class="bunnerLP">
+                            <div>
+                                <h2 class="fontEsportes">ESPORTES</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </div>
+
+                            <div class="imgBunner">
+                                <img class="imgB imgB-LP" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                        </div>
+
+                        <div class="bunnerLP">
+                            <div>
+                                <h2 class="fontEsportes">ESPORTES</h2>
+                                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Tenetur</h3>
+                            </div>
+
+                            <div class="imgBunner">
+                                <img class="imgB imgB-LP" src="https://www.lance.com.br/files/article_main/uploads/2022/07/23/62dbfb8b620b2.jpeg" alt="descrição image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="grade-layout">
+            <section id="footer" >
+                    <!--Copyright-->
+                    <div>
+                        <p>&copy;Copyright 2020 - 2021 - Todos os direitos eservados S.A</p>
+                    </div>
+                
+                    <!--Logo Footer-->
+                    <div class="logo">
+                        <a href="index.html">
+                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                            width="100px" height="100px" viewBox="0 0 112.000000 110.000000" preserveAspectRatio="xMidYMid meet">
+                                <g transform="translate(0.000000,110.000000) scale(0.100000,-0.100000)"
+                                fill="#fff" stroke="none">
+                                <path d="M479 906 c-108 -31 -193 -107 -252 -226 -29 -59 -32 -73 -32 -160 0
+                                -87 3 -101 32 -161 153 -311 567 -312 724 -2 32 62 34 74 34 162 0 87 -3 102
+                                -31 162 -39 81 -112 155 -198 198 -54 28 -78 34 -148 37 -50 2 -101 -2 -129
+                                -10z m206 -165 c80 -36 145 -137 145 -225 0 -81 -69 -180 -149 -213 -45 -19
+                                -137 -19 -182 0 -81 34 -149 132 -149 216 0 92 70 194 155 225 56 20 132 19
+                                180 -3z"/></g>
+                            </svg>
+                        </a>
+                    </div>
+
+                    <!--Links footer-->
+                    <div>
+                        <a href="#">Política de Privacidade</a>
+                        <a href="#">Imprensa</a>
+                    </div>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
