@@ -52,7 +52,7 @@
 
                 <img src="https://www.dci.com.br/wp-content/uploads/2022/12/neymar-1-1.jpg.webp" width="170px" height="200px" alt="Descrição da imagem">
 
-                <h3 class="descrição ESPORTES">ESPORTES</h3>
+                <h3 class="descrição fontEsportes">ESPORTES</h3>
 
                 <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
 
@@ -62,7 +62,7 @@
 
                 <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" width="170px" height="200px" alt="Descrição da imagem">
 
-                <h3 class="descrição ESPORTES">ECONOMIA</h3>
+                <h3 class="descrição fontEconomia">ECONOMIA</h3>
 
                 <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
 
@@ -71,95 +71,373 @@
         </section>
 
         <!-- Notícia 1 -->
-        <section class="container" id="areaNoticia1">
+        <section class="container areaNoticia" id="">
 
             <!-- <section> -->
 
-                <figure class="noticia-tipeflex">
-                    <a href="">
-                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
-                    </a>
+            <figure class="noticia-tipeflex" id="tipeflex01">
+                <a href="">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
 
-                    <a href="#">
-                        <article>
-                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
-                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
-                        </article>
-                    </a>
-                </figure>
+                <a href="#">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
 
-                <figure class="noticia-tipeflex">
-                    <a href="#">
-                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="240px" height="150px" alt="escrição da imagem">
-                    </a>
+            <figure class="noticia-tipeflex" id="tipeflex02">
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="240px" height="150px" alt="escrição da imagem">
+                </a>
 
-                    <a href="#">
-                        <article>
-                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
-                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
-                        </article>
-                    </a>
-                </figure>
+                <a href="#">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
 
-                <figure class="noticia-tipeflex">
-                    <a href="#">
-                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
-                    </a>
+            <figure class="noticia-tipeflex" id="tipeflex03">
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
 
-                    <a href="">
-                        <article>
-                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
-                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
-                        </article>
-                    </a>
-                </figure>
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
 
-                <figure class="noticia-tipeflex">
-                    <a href="#">
-                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
-                    </a>
+            <figure class="noticia-tipeflex" id="tipeflex04">
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
 
-                    <a href="#">
-                        <article>
-                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
-                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
-                        </article>
-                    </a>
-                </figure>
+                <a href="#">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
 
-                <figure class="noticia-tipeflex">
-                    <a href="#">
-                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
-                    </a>
+            <figure class="noticia-tipeflex" id="tipeflex05">
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
 
-                    <a href="">
-                        <article>
-                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
-                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
-                        </article>
-                    </a>
-                </figure>
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
 
-                <figure class="noticia-tipeflex">
-                    <a href="#">
-                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
-                    </a>
+            <figure class="noticia-tipeflex" id="tipeflex06">
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
 
-                    <a href="">
-                        <article>
-                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
-                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
-                        </article>
-                    </a>
-                </figure>
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
 
             <!-- </section> -->
 
-            <a href="#" class="allImg">
-                <figure  >
-                
+            <a href="#" class="allImg" id="allImg01">
+                <figure>
+                    <h3 class="descrição fontOutros">MUSICA</h3>
+                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
                 </figure>
             </a>
+
+            <a href="#" class="allImg" id="allImg02">
+                <figure>
+                    <h3 class="descrição fontOutros">MUSICA</h3>
+                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                </figure>
+            </a>
+
+            <a href="#" class="allImg" id="allImg03">
+                <figure>
+                    <h3 class="descrição fontOutros">MUSICA</h3>
+                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                </figure>
+            </a>
+
+            <figure class="noticia-tipeflex" id="tipeflex001">
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontEsportes">ESPORTES</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex002">
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontEsportes">ESPORTES</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex003">
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex004">
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex005">
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+            </figure>
+
+        </section>
+        
+        <!-- Notícia2 -->
+        <section>
+
+        </section>
+
+        <!-- Notícia 3 -->
+        <section class="container areaNoticia" id="areaNoticia2">
+
+            <!-- <section> -->
+
+            <figure class="noticia-tipeflex" id="tipeflex01">
+                <a href="">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+                <a href="#">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex02">
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="240px" height="150px" alt="escrição da imagem">
+                </a>
+
+                <a href="#">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex03">
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex04">
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+                <a href="#">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex05">
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex06">
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+            </figure>
+
+            <!-- </section> -->
+
+            <a href="#" class="allImg" id="allImg01">
+                <figure>
+                    <h3 class="descrição fontOutros">MUSICA</h3>
+                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                </figure>
+            </a>
+
+            <a href="#" class="allImg" id="allImg02">
+                <figure>
+                    <h3 class="descrição fontOutros">MUSICA</h3>
+                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                </figure>
+            </a>
+
+            <a href="#" class="allImg" id="allImg03">
+                <figure>
+                    <h3 class="descrição fontOutros">MUSICA</h3>
+                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                </figure>
+            </a>
+
+            <figure class="noticia-tipeflex" id="tipeflex001">
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontEsportes">ESPORTES</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex002">
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontEsportes">ESPORTES</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex003">
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex004">
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+            </figure>
+
+            <figure class="noticia-tipeflex" id="tipeflex005">
+
+                <a href="">
+                    <article>
+                        <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
+                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
+                </a>
+
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
+
+            </figure>
 
         </section>
 

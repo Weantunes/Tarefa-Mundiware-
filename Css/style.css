@@ -42,23 +42,21 @@ header .container .categorias a{font-weight: 600; color: #4A4A4A;}
 .noticia-tipe02{max-width: 225px;}
 .noticia-tipe02 img{border-radius: 10px; width: 100%;}
 
-#areaNoticia1{display: grid;background-color: #5F7AB5; width: 100%;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-template-areas: 
-    
-    "tipeflex . ."
-    "tipeflex . ."
-    "tipeflex . ."
-    "tipeflex . ."
-    "tipeflex . ."
-    "tipeflex . ."
-    
-    ;}
+.areaNoticia{display: grid;background-color: #5F7AB5; width: 100%;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;}
 
-.noticia-tipeflex{display: grid; gap: 25px; margin: 40px 0; max-width: 100%; grid-template-columns: auto auto; background-color: white; border-radius: 25px; padding: 25px; grid-area: "tipeflex";}
-.noticia-tipeflex img{}
+#allImg01{grid-column: 3/4; grid-row: 1/3;}
+#allImg02{grid-column: 4/5; grid-row: 1/3;}
+#allImg03{grid-column: 3/5; grid-row: 3/5;}
+#tipeflex001{grid-column: 3/5; grid-row: 5/6;}
+#tipeflex002{grid-column: 3/5;}
+#tipeflex003{grid-column: 3/5;}
+#tipeflex004{grid-column: 3/5;}
+#tipeflex005{grid-column: 3/5;}
 
-.allImg{background-color: #85c625; width: 100px;}
+.noticia-tipeflex{display: grid; gap: 25px;max-width: 100%; grid-template-columns: auto auto; background-color: white; border-radius: 25px; padding: 25px; grid-column: 1/3 ;}
+.noticia-tipeflex img{border-radius: 25px;}
+.allImg{background-color: #85c625; max-width: 100%; height: 100%; grid-row: 1/4; border-radius: 25px;}
 
 
 /* footer */
@@ -66,8 +64,6 @@ footer{background-color: #4A4A4A; color: white;}
 footer .container{display: grid; align-items: center; text-align: center;grid-template-columns:  repeat(auto-fit, minmax(250px, 1fr)); padding: 5px; justify-content: space-evenly;}
 footer .container p, footer .container a{font-size: .9rem; color: white;}
 footer .container a{text-decoration:underline; margin: 5px 0;}
-
-
 
 @media (max-width: 950px) {
 
@@ -80,18 +76,12 @@ footer .container a{text-decoration:underline; margin: 5px 0;}
     header .container .user{grid-row: 1/2; grid-column: 4/5;}
     header .container .categorias{display: none;}
 
-
-
 }
 
 @media (max-width:770px) {
     #tp01-destaque figcaption{right: 0%; margin-right: 0;}
     #areaDestaque{}
 }
-
-
-
-
 
 .fontEsportes{font: normal 700 .9rem 'arial'; color: #85c625; margin: 10px 0;}
 .fontEconomia{font: normal 700 .9rem 'arial'; color: orange; margin: 10px 0;}
@@ -100,199 +90,3 @@ footer .container a{text-decoration:underline; margin: 5px 0;}
 .fontTVFamosos{font: normal 700 .9rem 'arial'; color: rgb(0, 51, 255); margin: 10px 0;}
 .fontOutros{font: normal 700 .9rem 'arial'; color: white; margin: 10px 0;}
 
-.noticia{
-    display: flex;
-    gap: 25px;
-    flex-wrap: wrap;
-    margin: auto;
-    padding: 25px 0 25px 0;
-}
-
-.bunnerBL, .bunnerWBL{
-    width: 500px;
-    height: 250px;
-    border-radius: 25px;
-    padding: 25px;
-    background-color: white;
-    margin: 25px 15px;
-}
-
-.bunnerWBL{
-    TEXT ;
-}
-
-#bunnerBL1{
-    background-image: url(https://www.mundodomarketing.com.br/images2/inteligencia/materias/443/entreterimento.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* section 1*/
-
-.bunnerP, .bunnerWP, .bunnerWL-G{
-    display: block;
-    width: 230px;
-    margin: 10px auto 10px auto;
-    color: #4A4A4A;
-}
-
-.bunnerWP{
-    width: 260px;
-    background-color: white;  
-    margin: 0;
-}
-
-.bunnerWP .imgB, .bunnerWL-G .imgB{
-    width: 600px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-
-.bunnerWP article{
-    padding: 35px;
-}
-
-#videos{
-    display: flex;
-    margin: auto;
-    gap: 15px;
-    overflow: auto; 
-}
-
-.bunnerWL-G{
-    width: 600px;
-    height: 350px;
-    background-color: #5F7AB5;  
-    margin: 0;
-    padding: ;
-    border-radius: 25px;
-}
-
-.imgB{
-    border-radius: 10px;
-}
-
-.imgB-P{ 
-    max-width: 100%;
-    height: 200px;
-}
-
-.imgB-G{ 
-    max-width: 100%;
-    height: 400px;
-}
-
-.imgB-L{
-    width: 250px;
-    height: 200px;
-}
-
-.imgB-LP{
-    width: 180px;
-    height: 130px;
-}
-
-
-
-.bunnerG{
-    position: relative;
-    display: block;
-    width: 500px;
-    margin: -96px 185px 10px 0;
-    color: #4A4A4A;
-}
-
-.boxinfo{
-    position: absolute;
-    top: 75px;
-    right: -200px;
-    width: 350px;
-    border-radius: 10px;
-    background-color: #B4023F;
-    height: 330px;
-    padding: 25px;
-    color: white;
-}
-
-.boxinfo span{
-    display: block;
-    width: 50px;
-    margin: 0 25px;
-    background-color:white; 
-}
-
-.sectionList{
-    background-color: #fff;
-    border-radius: 25px;
-    margin: 15px auto;
-    padding: 25px 0 25px 25px;
-    width: 650px;
-}
-
-.bunnerL{
-    position: relative;
-    display: flex;
-    height: 200px;
-    gap: 25px;
-    margin: 25px 5px 25px 5px;
-}
-
-.bunnerLP{
-    width: 500px;
-    position: relative;
-    display: flex;
-    height: 170px;
-    gap: 25px;
-    margin: 25px 5px 25px 5px;
-    background-color: white;
-    border-radius: 25px;
-    padding: 25px;
-}
-
-.infobox{
-    position: absolute;
-    bottom: 10px;
-    font: normal 500 .7rem 'arial';
-    color: #4A4A4A;
-}
-
-.bunnerBV, .bunnerBWV{
-    width: 230px;
-    height: 300px;
-    background-color: #5F7AB5;
-    border-radius: 10px;
-    border-radius: 10px;
-}
-
-.bunnerBWV{height: 200px; background-color: white; padding: 15px;}
-
-
-
-#bunnerBV1{
-    background-image: url(https://extra.globo.com/incoming/25083705-83f-eb5/w533h800/marilia-mendonca-signo-1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#bunnerBV2{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoA5YLjfBLRw9bpjR7httrcv3MfAr3QAVKYA&usqp=CAU);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-@media (max-width: 720px){
-
-    .bunnerG{
-        margin: -70px 0 10px 0;
-    }
-
-    .boxinfo{
-        position: absolute;
-        right: 0px;
-    }
-
-    #bunnerG-principal{width: 500px; }
-    
-}
