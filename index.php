@@ -33,36 +33,24 @@
         <!-- Notícia Principal -->
         <section class="container" id="areaDestaque">
 
-            <div id="bunnerG-principal">
+            <figure class="noticia-tipe01" id="tp01-destaque">
+                <figcaption>
 
-                <div class="bunnerG">
+                    <h3 class="descrição DESTAQUE">DESTAQUE</h3>
 
-                    <h2 class="fontSaude">COVID-19</h2>
+                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
 
-                    <figure class="imgBunner">
-                        <img class="imgB imgB-G" src="https://res.cloudinary.com/worldpackers/image/upload/c_fill,f_auto,q_auto,w_1024/v1/guides/article_cover/c1yjmox57vxbkt8u7lrw" alt="descrição image">
-                    </figure>
+                    <p>Lorem ipsum dolor sit amet. consectetur adiplsang elJt, sed do etusmod tempor incididunt ut labore et dolore magna</p>
 
-                    <figcaption class="boxinfo">,
+                    <span></span>
+                    <span></span>
 
-                        <p class="fontOutros">DESTAQUE</p>
-
-                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit Repellendus</h3>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Repellendus</p>
-
-                        <nav>
-                            <span></span>
-                            <span></span>
-                        </nav>
-
-                    </figcaption>
-                </div>
-            </div>
+                </figcaption>
+            </figure>
 
             <figure class="noticia-tipe02">
 
-                <img src="https://www.dci.com.br/wp-content/uploads/2022/12/neymar-1-1.jpg.webp" width="210px" height="150px" alt="Descrição da imagem">
+                <img src="https://www.dci.com.br/wp-content/uploads/2022/12/neymar-1-1.jpg.webp" width="170px" height="200px" alt="Descrição da imagem">
 
                 <h3 class="descrição ESPORTES">ESPORTES</h3>
 
@@ -72,13 +60,106 @@
 
             <figure class="noticia-tipe02">
 
-                <img src="" width="180px" height="150px" alt="Descrição da imagem">
+                <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" width="170px" height="200px" alt="Descrição da imagem">
 
                 <h3 class="descrição ESPORTES">ECONOMIA</h3>
 
                 <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
 
             </figure>
+
+        </section>
+
+        <!-- Notícia 1 -->
+        <section class="container" id="areaNoticia1">
+
+            <!-- <section> -->
+
+                <figure class="noticia-tipeflex">
+                    <a href="">
+                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                    </a>
+
+                    <a href="#">
+                        <article>
+                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
+                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        </article>
+                    </a>
+                </figure>
+
+                <figure class="noticia-tipeflex">
+                    <a href="#">
+                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="240px" height="150px" alt="escrição da imagem">
+                    </a>
+
+                    <a href="#">
+                        <article>
+                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
+                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        </article>
+                    </a>
+                </figure>
+
+                <figure class="noticia-tipeflex">
+                    <a href="#">
+                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                    </a>
+
+                    <a href="">
+                        <article>
+                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
+                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        </article>
+                    </a>
+                </figure>
+
+                <figure class="noticia-tipeflex">
+                    <a href="#">
+                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                    </a>
+
+                    <a href="#">
+                        <article>
+                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
+                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        </article>
+                    </a>
+                </figure>
+
+                <figure class="noticia-tipeflex">
+                    <a href="#">
+                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                    </a>
+
+                    <a href="">
+                        <article>
+                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
+                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        </article>
+                    </a>
+                </figure>
+
+                <figure class="noticia-tipeflex">
+                    <a href="#">
+                        <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                    </a>
+
+                    <a href="">
+                        <article>
+                            <h3 class="descrição ESPORTES">ECONOMIA</h3>
+                            <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        </article>
+                    </a>
+                </figure>
+
+            <!-- </section> -->
+
+            <a href="#" class="allImg">
+                <figure  >
+                
+                </figure>
+            </a>
 
         </section>
 
