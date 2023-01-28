@@ -36,11 +36,12 @@
             <figure class="noticia-tipe01" id="tp01-destaque">
                 <figcaption>
 
-                    <h3 class="descrição DESTAQUE">DESTAQUE</h3>
+                    <h3 class="descrição fontOutros">DESTAQUE</h3>
 
-                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    <h4 class="fontTitle_destaque1">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
 
-                    <p>Lorem ipsum dolor sit amet. consectetur adiplsang elJt, sed do etusmod tempor incididunt ut labore et dolore magna</p>
+                    <p class="fontTitle_destaque2">Lorem ipsum dolor sit amet. consectetur adiplsang elJt, sed do etusmod tempor incididunt ut labore et dolore magna</p>
+
 
                     <span></span>
                     <span></span>
@@ -54,7 +55,7 @@
 
                 <h3 class="descrição fontEsportes">ESPORTES</h3>
 
-                <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
 
             </figure>
 
@@ -64,7 +65,7 @@
 
                 <h3 class="descrição fontEconomia">ECONOMIA</h3>
 
-                <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
 
             </figure>
 
@@ -73,17 +74,16 @@
         <!-- Notícia 1 -->
         <section class="container areaNoticia" id="">
 
-            <!-- <section> -->
-
             <figure class="noticia-tipeflex" id="tipeflex01">
-                <a href="">
+                <a href="#">
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
 
                 <a href="#">
                     <article>
                         <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
             </figure>
@@ -96,7 +96,8 @@
                 <a href="#">
                     <article>
                         <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
             </figure>
@@ -106,10 +107,11 @@
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
             </figure>
@@ -122,7 +124,8 @@
                 <a href="#">
                     <article>
                         <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
             </figure>
@@ -132,10 +135,11 @@
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
             </figure>
@@ -145,138 +149,212 @@
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
             </figure>
 
-            <!-- </section> -->
+            <figure class="noticia-tipe02 blocktp3 ">
+
+                <img src="https://www.dci.com.br/wp-content/uploads/2022/12/neymar-1-1.jpg.webp" width="170px" height="200px" alt="Descrição da imagem">
+
+                <article>
+                    <h3 class="descrição fontOutros">TV E FAMOSOS</h3>
+                    <h4 class="fontTitle_destaque1">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                </article>
+
+            </figure>
+
+            <!-- Noticia em bloco -->
 
             <a href="#" class="allImg" id="allImg01">
                 <figure>
-                    <h3 class="descrição fontOutros">MUSICA</h3>
-                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    <article>
+                        <h3 class="descrição fontOutros">MUSICA</h3>
+                        <h4 class="fontTitle_allImg1">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
                 </figure>
             </a>
 
             <a href="#" class="allImg" id="allImg02">
                 <figure>
-                    <h3 class="descrição fontOutros">MUSICA</h3>
-                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    <article>
+                        <h3 class="descrição fontOutros">MUSICA</h3>
+                        <h4 class="fontTitle_allImg1">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    </article>
                 </figure>
             </a>
 
             <a href="#" class="allImg" id="allImg03">
                 <figure>
-                    <h3 class="descrição fontOutros">MUSICA</h3>
-                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    <article>
+                        <h3 class="descrição fontOutros">MUSICA</h3>
+                        <h4 class="fontTitle_allImg1">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="fontTitle_allImg2">Lorem ipsum dolor sit amet. consectetur adiplsang elJt, sed do etusmod tempor incididunt ut labore et dolore magna</p>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
+                    </article>
                 </figure>
             </a>
 
             <figure class="noticia-tipeflex" id="tipeflex001">
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontEsportes">ESPORTES</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
 
                 <a href="#">
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
-
             </figure>
 
             <figure class="noticia-tipeflex" id="tipeflex002">
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontEsportes">ESPORTES</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
 
                 <a href="#">
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
-
             </figure>
 
             <figure class="noticia-tipeflex" id="tipeflex003">
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
 
                 <a href="#">
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
-
             </figure>
 
             <figure class="noticia-tipeflex" id="tipeflex004">
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
 
                 <a href="#">
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
-
             </figure>
 
             <figure class="noticia-tipeflex" id="tipeflex005">
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
 
                 <a href="#">
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
-
             </figure>
 
         </section>
-        
+
         <!-- Notícia2 -->
-        <section>
+        <section class="container listNoticia">
+
+            <figure class="noticia-tipe02 blocktp2 ">
+
+                <img src="https://www.dci.com.br/wp-content/uploads/2022/12/neymar-1-1.jpg.webp" width="170px" height="200px" alt="Descrição da imagem">
+
+                <article>
+                    <h3 class="descrição fontEsportes">ESPORTES</h3>
+                    <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                </article>
+
+            </figure>
+
+            <figure class="noticia-tipe02 blocktp2 ">
+
+                <img src="https://www.dci.com.br/wp-content/uploads/2022/12/neymar-1-1.jpg.webp" width="170px" height="200px" alt="Descrição da imagem">
+
+                <article>
+                    <h3 class="descrição fontEsportes">ESPORTES</h3>
+                    <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                </article>
+
+            </figure>
+
+            <figure class="noticia-tipe02 blocktp2 ">
+
+                <img src="https://www.dci.com.br/wp-content/uploads/2022/12/neymar-1-1.jpg.webp" width="170px" height="200px" alt="Descrição da imagem">
+
+                <article>
+                    <h3 class="descrição fontEsportes">ESPORTES</h3>
+                    <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                </article>
+
+            </figure>
+
+            <figure class="noticia-tipe02 blocktp2 ">
+
+                <img src="https://www.dci.com.br/wp-content/uploads/2022/12/neymar-1-1.jpg.webp" width="170px" height="200px" alt="Descrição da imagem">
+
+                <article>
+                    <h3 class="descrição fontEsportes">ESPORTES</h3>
+                    <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                </article>
+
+            </figure>
 
         </section>
 
         <!-- Notícia 3 -->
         <section class="container areaNoticia" id="areaNoticia2">
 
-            <!-- <section> -->
+            <figure class="noticia-tipe02 blocktp3" id="Noticia3Tip2-01">
 
-            <figure class="noticia-tipeflex" id="tipeflex01">
-                <a href="">
+                <img src="https://www.dci.com.br/wp-content/uploads/2022/12/neymar-1-1.jpg.webp" width="170px" height="200px" alt="Descrição da imagem">
+
+                <article>
+                    <h3 class="descrição fontEsportes">ESPORTES</h3>
+                    <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                </article>
+
+            </figure>
+
+            <figure class="noticia-tipeflex" id="Noticia3-tipeflex01">
+                <a href="#">
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
 
                 <a href="#">
                     <article>
                         <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
             </figure>
 
-            <figure class="noticia-tipeflex" id="tipeflex02">
+            <figure class="noticia-tipeflex" id="Noticia3-tipeflex02">
                 <a href="#">
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="240px" height="150px" alt="escrição da imagem">
                 </a>
@@ -284,25 +362,13 @@
                 <a href="#">
                     <article>
                         <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
             </figure>
 
-            <figure class="noticia-tipeflex" id="tipeflex03">
-                <a href="#">
-                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
-                </a>
-
-                <a href="">
-                    <article>
-                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
-                    </article>
-                </a>
-            </figure>
-
-            <figure class="noticia-tipeflex" id="tipeflex04">
+            <figure class="noticia-tipeflex" id="Noticia3-tipeflex03">
                 <a href="#">
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
@@ -310,66 +376,82 @@
                 <a href="#">
                     <article>
                         <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
             </figure>
 
-            <figure class="noticia-tipeflex" id="tipeflex05">
+            <figure class="noticia-tipeflex" id="Noticia3-tipeflex04">
                 <a href="#">
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
             </figure>
 
-            <figure class="noticia-tipeflex" id="tipeflex06">
+            <figure class="noticia-tipeflex" id="Noticia3-tipeflex05">
                 <a href="#">
                     <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
                 </a>
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
             </figure>
 
-            <!-- </section> -->
+            <figure class="noticia-tipeflex" id="Noticia3-tipeflex06">
+                <a href="#">
+                    <img src="https://images.jota.info/wp-content/uploads/2022/09/bolsonaro-onu-7.webp" max-width="250px" height="150px" alt="escrição da imagem">
+                </a>
 
-            <a href="#" class="allImg" id="allImg01">
+                <a href="#">
+                    <article>
+                        <h3 class="descrição fontEntreterimento">ENTRETERIMENTO</h3>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
+                    </article>
+                </a>
+            </figure>
+
+            <a href="#" class="allImg" id="Noticia3-allImg01">
                 <figure>
                     <h3 class="descrição fontOutros">MUSICA</h3>
-                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
                 </figure>
             </a>
 
-            <a href="#" class="allImg" id="allImg02">
+            <a href="#" class="allImg" id="Noticia3-allImg02">
                 <figure>
                     <h3 class="descrição fontOutros">MUSICA</h3>
-                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
                 </figure>
             </a>
 
-            <a href="#" class="allImg" id="allImg03">
+            <a href="#" class="allImg" id="Noticia3-allImg03">
                 <figure>
                     <h3 class="descrição fontOutros">MUSICA</h3>
-                    <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                    <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
                 </figure>
             </a>
 
-            <figure class="noticia-tipeflex" id="tipeflex001">
+            <figure class="noticia-tipeflex" id="Noticia3-tipeflex001">
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontEsportes">ESPORTES</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
 
@@ -379,12 +461,13 @@
 
             </figure>
 
-            <figure class="noticia-tipeflex" id="tipeflex002">
+            <figure class="noticia-tipeflex" id="Noticia3-tipeflex002">
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontEsportes">ESPORTES</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
 
@@ -394,12 +477,13 @@
 
             </figure>
 
-            <figure class="noticia-tipeflex" id="tipeflex003">
+            <figure class="noticia-tipeflex" id="Noticia3-tipeflex003">
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
 
@@ -409,12 +493,13 @@
 
             </figure>
 
-            <figure class="noticia-tipeflex" id="tipeflex004">
+            <figure class="noticia-tipeflex" id="Noticia3-tipeflex004">
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
 
@@ -424,12 +509,13 @@
 
             </figure>
 
-            <figure class="noticia-tipeflex" id="tipeflex005">
+            <figure class="noticia-tipeflex" id="Noticia3-tipeflex005">
 
-                <a href="">
+                <a href="#">
                     <article>
                         <h3 class="descrição fontTVFamosos">TV E FAMOSOS</h3>
-                        <h4>Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <h4 class="fontTitle">Lorem ipsum dolor sit amet adipisicing Lorem ipsum dolor</h4>
+                        <p class="dataInfo">5 mm. de leitura • há 15 horas</p>
                     </article>
                 </a>
 
